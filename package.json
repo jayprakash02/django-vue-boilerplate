@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "django-serve": "python manage.py runserver"
+    "django-serve": "python manage.py runserver",
+    "django-makemigration": "python manage.py makemigrations",
+    "django-migrate": "python manage.py migrate"
   },
   "dependencies": {
     "core-js": "^3.6.5",
